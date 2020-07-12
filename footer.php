@@ -16,7 +16,7 @@
 	<footer id="colophon" class="site-footer">
 		<div class="container">
 			<div class="site-info">
-				&copy; Copyright 2019
+				&copy; Copyright 2020
 				<span class="sep"> | </span>
 				OC-OCR
 			</div><!-- .site-info -->
