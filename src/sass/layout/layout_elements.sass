@@ -1,0 +1,64 @@
+body 
+	background: $color-black
+	margin: 0 !important
+
+#content
+	padding-top: 60px
+	background: $color-white
+	> .container
+		display: flex
+		align-items: stretch
+
+.container
+	width: auto 
+	margin: 0 auto
+	padding: 0 10px
+	position: relative
+	@media (min-width: $screen-sm-min)
+		width: 750px
+		padding: 0 15px
+	@media (min-width: $screen-md-min)
+		width: 970px
+	@media (min-width: $screen-lg-min)
+		width: 1170px
+
+#page-content // main panel
+	float: none
+	width: 100%
+	padding: 20px 0
+	@media (min-width: $screen-sm-min)
+		float: left
+		width: 67%
+		padding: 40px 25px 40px 0
+
+#secondary // sidebar 
+	display: none
+	color: $color-white
+	padding: 50px 15px 
+	background-color: $color-orange
+	@media (min-width: $screen-sm-min)
+		display: block
+		width: 33%
+
+.text-banner
+	background-color: $color-black
+	color: $color-white
+	padding: 30px
+	margin-bottom: 30px
+	@media (min-width: $screen-sm-min)
+		margin-bottom: 60px
+	h2
+		text-align: center
+
+.post-loop
+	padding: 0
+	margin-left: 0
+	article
+		margin-bottom: 30px
+		h1.page-title
+			font-size: 24px !important
+
+.navigation.home-page
+	padding-bottom: 20px
+	@media (min-width: $screen-sm-min)
+		padding-bottom: 60px

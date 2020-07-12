@@ -1,0 +1,142 @@
+body.author
+	
+	#content
+		.container
+			flex-direction: column
+			@media (min-width: $screen-sm-min)
+				flex-direction: row
+			#page-content
+				position: relative
+
+			aside#secondary
+				display: block
+		
+			.post-navigation
+				position: absolute
+				bottom: 15px
+				@media (min-width: $screen-sm-min)
+					bottom: 30px
+
+	.intro
+		display: flex
+		position: relative
+		margin-bottom: 30px
+		.author-frame
+			position: absolute
+			top: -1px
+			left: -1px
+			width: 202px
+			height: 252px
+			// width: 152px
+			// height: 177px
+			z-index: 99
+			background-image: url(../img/author_frame.png)
+			background-position: top center
+			background-repeat: no-repeat
+			background-size: 100% 100%
+			// @media (min-width: $screen-sm-min)
+			// 	width: 202px
+			// 	height: 252px
+		.avatar-wrap
+			// width: 150px
+			// height: 175px
+			width: 200px
+			height: 250px
+			overflow: hidden
+			background-size: cover
+			background-repeat: no-repeat
+			background-position: center center
+			margin-right: 20px
+			// @media (min-width: $screen-sm-min)
+			// 	width: 200px
+			// 	height: 250px
+
+		.author-info
+			// width: calc(100% - 165px)
+			// @media (min-width: $screen-sm-min)
+			width: calc(100% - 220px)
+			.author-name
+				margin: 0 0 15px
+				font-size: 2rem
+			.author-city
+				margin-top: 5px
+				font-size: 1rem
+				margin-bottom: 20px
+			.social-accounts
+				margin-bottom: 20px
+				.social
+					//see /helpers/social.sass
+	.gallery
+		margin: 0
+		a 
+			margin-right: 10px
+			&:last-of-type
+				margin-right: 0
+		img 
+			height: 80px
+		.slick-prev:before, .slick-next:before 
+			color: $color-dark-grey
+		.slick-prev
+			top: -15px
+			right: 30px
+			left: auto
+		.slick-next
+			top: -15px
+			right: 5px
+			left: auto
+	.desktop-img-gal
+		display: none
+		@media (min-width: $screen-sm-min)
+			display: block
+	.mobile-img-gal
+		display: block
+		margin-bottom: 20px
+		@media (min-width: $screen-sm-min)
+			display: none
+	
+	.profile
+		margin-bottom: 50px
+		p 
+			font-size: 1rem
+			margin: 0
+	
+
+
+
+// ATHLETE LIST PAGE
+body.page-template-page-authorlist
+
+	#athlete-page
+		padding: 60px 0
+	ul.authors 	
+		padding: 0
+		margin: 0
+		display: flex
+		flex-wrap: wrap
+		li.author
+			list-style-type: none
+			text-align: center
+			display: inline-block
+			margin: 0 auto 30px
+			@media (min-width: $screen-sm-min)
+				margin: 0 20px 30px 0
+				max-width: 200px
+			.author-img-wrap
+				width: 300px
+				height: 200px
+				overflow: hidden
+				margin-bottom: 20px
+				@media (min-width: $screen-sm-min)
+					height: 150px
+					width: 200px
+				// a.author-image
+				// 	img
+				// 		width: 250px
+				// 		margin-top: -40px
+			a.author-name
+				margin-bottom: 10px
+				font-family: $font-title
+				font-size: 24px
+				display: block
+			.social-accounts
+				.social	

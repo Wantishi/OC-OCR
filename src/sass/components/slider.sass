@@ -1,0 +1,53 @@
+#hero-slider 
+	height: 300px
+	position: relative
+	@media (min-width: $screen-sm-min)
+		height: 500px
+	.slider-frame
+		position: absolute
+		top: 0
+		width: 100%
+		z-index: 99
+		height: 300px
+		background-image: url(../img/ococr_mobile_hero_frame.png)
+		background-position: top center
+		background-repeat: no-repeat
+		background-size: 100% 100%
+		@media (min-width: $screen-sm-min)
+			height: 500px
+			background-image: url(../img/ococr_hero_frame2.png)
+		
+	.slider-wrap-desktop
+		display: none
+		position: relative
+		width: 100%
+		height: 500px
+		overflow: hidden
+		@media (min-width: $screen-sm-min)
+			display: block
+		.slider
+			height: 500px
+			width: 34%
+			position: absolute
+			top: 0
+			overflow: hidden
+			&.slider-left
+				left: 0
+			&.slider-center
+				left: 50%
+				margin-left: -16%
+				z-index: 2
+			&.slider-right
+				right: 0
+
+	.slider-wrap-mobile
+		display: block
+		position: relative
+		width: 100%
+		height: 300px
+		overflow: hidden
+		@media (min-width: $screen-sm-min)
+			display: none
+
+
+
