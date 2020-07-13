@@ -1,6 +1,6 @@
 WORK IN PROGRESS --
 
-## V1 build for the OC-OCR Wordpress theme.
+## V1 build for the OC-OCR Wordpress theme.  (www.oc-ocr.com)
 (lightweight theme, built on the minimal '_s' framework
 
 **Goal :**
