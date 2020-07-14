@@ -5,13 +5,13 @@ WORK IN PROGRESS --
 
 **Goal :**
 
-Create a super lightweight theme that allowed users to sign up as members - be able to admin and edit their own personal page - and create blog posts sharing race reviews, trail reviews, gear reviews, etc.
+Create a super lightweight theme that allows users to sign up as members - be able to admin and edit their own personal page - and create blog posts sharing race reviews, trail reviews, gear reviews, etc.
 
 Each member would have their own profile page with images, info and their blog content filtered to them specifically. Post content would then fill out general category pages.
 
 
 **Roadblocks :**
-shoulder surgery, Covid... lol.  Need to get back to V2.
+shoulder surgery, COVID, cancellation of all races... lol.  Need to get back to V2.
 
 
 **Completed :**
